@@ -1,0 +1,13 @@
+### MeteorJS ###
+# default meteor build and local packages
+.meteor/local
+
+# meteor settings file
+settings.json
+
+
+node_modules/
+
+# since we are using Typescript we should ignore the .js and .jsx files?
+*.js
+*.jsx
