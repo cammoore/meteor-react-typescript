@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "experimentalDecorators": true,
     "module": "commonjs",
+    "target": "es5",
+    "isolatedModules": false,
     "moduleResolution": "node",
-    "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": false,
+    "noImplicitAny": false,
     "sourceMap": true,
     "jsx": "preserve",
     "allowJs": true,
-    "noImplicitAny": false,
     "strictNullChecks": true
   },
   "include": [

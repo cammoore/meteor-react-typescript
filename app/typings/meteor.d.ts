@@ -2141,3 +2141,7 @@ declare module "meteor/accounts-base" {
         function onLogout(func: (user: Meteor.User, connection: Meteor.Connection) => void): void;
     }
 }
+
+declare module "meteor/react-meteor-data" {
+    function createContainer(options: object, Component: object): object;
+}

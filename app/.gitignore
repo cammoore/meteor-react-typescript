@@ -7,7 +7,3 @@ settings.json
 
 
 node_modules/
-
-# since we are using Typescript we should ignore the .js and .jsx files?
-*.js
-*.jsx

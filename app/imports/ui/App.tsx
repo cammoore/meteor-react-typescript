@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
-import {createContainer} from 'meteor/react-meteor-data';
-import {Tasks} from '../api/tasks.js';
+import { Meteor } from 'meteor/meteor';
+import { createContainer } from 'meteor/react-meteor-data';
+import { Tasks } from '../api/tasks.js';
 import Task from './Task.jsx';
 import AccountsUIWrapper from './AccountsUIWrapper.jsx';
 
@@ -10,6 +11,7 @@ interface AppProps {
     incompleteCount: number;
     currentUser: object;
 }
+
 interface AppState {
     hideCompleted: boolean;
 }
